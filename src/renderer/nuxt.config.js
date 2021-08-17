@@ -9,16 +9,10 @@ module.exports = {
   target: 'static',
   head: {
     title: 'test-electron-nuxt-with-typescript',
-    meta: [{ charset: 'utf-8' }]
+    meta: [{ charset: 'utf-8' }],
   },
   loading: false,
-  plugins: [
-
-  ],
-  buildModules: [
-    '@nuxt/typescript-build'
-  ],
-  modules: [
-
-  ]
-}
+  plugins: [],
+  buildModules: ['@nuxt/typescript-build'],
+  modules: [],
+};
