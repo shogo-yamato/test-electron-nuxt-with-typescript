@@ -7,6 +7,7 @@
 module.exports = {
   ssr: false,
   target: 'static',
+  css: ['@/assets/scss/app.scss'],
   head: {
     title: 'test-electron-nuxt-with-typescript',
     meta: [{ charset: 'utf-8' }],
