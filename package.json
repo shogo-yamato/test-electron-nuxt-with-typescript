@@ -16,33 +16,42 @@
   "author": "shogo-yamato <shogo.yamato@arsaga.jp>",
   "license": "MIT",
   "homepage": "https://github.com/michalzaq12/electron-nuxt/blob/master/README.md",
-  "engines" : {
-    "node" : ">=12.13.0"
+  "engines": {
+    "node": ">=12.13.0"
   },
   "resolutions": {
     "@types/node": "12.12.6"
   },
   "devDependencies": {
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "2.1.0",
+    "@nuxtjs/eslint-config-typescript": "6.0.0",
     "@xpda-dev/core": "^0.1.6",
-    "@xpda-dev/electron-launcher": "^0.3.0",
     "@xpda-dev/electron-builder": "^0.2.1",
+    "@xpda-dev/electron-launcher": "^0.3.0",
     "@xpda-dev/webpack-step": "^0.1.2",
-    "deepmerge": "4.2.2",
     "browser-env": "3.3.0",
     "cross-env": "7.0.3",
+    "deepmerge": "4.2.2",
     "electron": "12.0.6",
     "electron-builder": "22.11.3",
+    "electron-devtools-installer": "3.2.0",
     "eslint": "7.25.0",
-    
+    "eslint-config-prettier": "^8.3.0",
     "eslint-friendly-formatter": "4.0.1",
     "eslint-loader": "4.0.2",
-    
-    "@nuxtjs/eslint-config-typescript": "6.0.0",
-    "nuxt": "2.15.6",
-    "@nuxt/typescript-build": "2.1.0",
+    "eslint-plugin-vue": "^7.16.0",
     "node-sass": "4.14.1",
+    "nuxt": "2.15.6",
+    "prettier": "^2.3.2",
     "sass-loader": "10.0.2",
-    "electron-devtools-installer": "3.2.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.5.0",
+    "stylelint-config-recommended-scss": "^4.3.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-rscss": "^0.4.0",
+    "stylelint-scss": "^3.20.1",
     "webpack": "4.44.2",
     "webpack-node-externals": "2.5.2"
   }
